@@ -1,0 +1,29 @@
+{
+  "name": "img-uploader",
+  "version": "1.0.0",
+  "description": "A webpack loader to upload images and return the url",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoungNK/img-uploader.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "image",
+    "url",
+    "png",
+    "jpg",
+    "bmp",
+    "gif"
+  ],
+  "author": "shao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YoungNK/img-uploader/issues"
+  },
+  "homepage": "https://github.com/YoungNK/img-uploader#readme"
+}
