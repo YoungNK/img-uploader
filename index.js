@@ -1,10 +1,12 @@
 const uploader = require('./uploadImage');
 const loaderUtils = require('loader-utils');
+var path= require("path");
 const { getDealed, dealPath, getResourceName } = require('./utils');
 
 module.exports = function (content, _map, _meta) {
     const options = loaderUtils.getOptions(this);
     let recordFile = options.recordFile || '/src/asset/';
+    recordFile = path.join(recordFile)
     let pathStr = dealPath(recordFile, this.context);
     let callback = this.async();
     let _this = this;
