@@ -1,5 +1,5 @@
 {
-  "name": "img-uploader",
+  "name": "images-uploader",
   "version": "1.0.0",
   "description": "A webpack loader to upload images and return the url",
   "main": "index.js",
